@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+input:focus{
+    outline: none;
+}
+.wapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.wapper__content{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wapper__content-name{
+    text-align: center;
+}
+.wapper__content-title{
+    text-align: center;
+}
+#content {
+    border: 1px solid darkgrey;
+    height: 30vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+#content p {
+    margin: 5px;
+}
+.wapper__content-send{
+    text-align: center;
+}
+.wapper__content-btnsend{
+    height: 5vh;
+}
+#message{
+    height: 20vh;
+    width: 100%;
+}
+#username{
+    height: 5vh;
+
+}
+#sendMessage{
+    height: 100%;
+    text-align: center;
+    background-color: #5488c7;
+    color: #ffffff;
+    padding-top: 1vh;
+}
+
+.wapper__content-title, .wapper__content-name , .wapper__content-content , .wapper__content-send {
+    margin-bottom: 10px;
+}
+#username, #message{
+    border: 1px solid darkgrey;
+    background-color: transparent;
+}
